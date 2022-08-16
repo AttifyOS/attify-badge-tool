@@ -31,12 +31,12 @@ install() {
   wget https://github.com/attify/attify-badge-tool/releases/download/v0.0.1/Attify.Badge.Tool-0.0.1-x86_64.AppImage -O $APM_TMP_DIR/Attify.Badge.Tool-0.0.1-x86_64.AppImage
   mv $APM_TMP_DIR/Attify.Badge.Tool-0.0.1-x86_64.AppImage $APM_PKG_INSTALL_DIR/Attify.Badge.Tool-0.0.1-x86_64.AppImage
   chmod +x $APM_PKG_INSTALL_DIR/Attify.Badge.Tool-0.0.1-x86_64.AppImage
-  ln -s $APM_PKG_INSTALL_DIR/Attify.Badge.Tool-0.0.1-x86_64.AppImage $APM_PKG_BIN_DIR/attifyos-package-manager
+  ln -s $APM_PKG_INSTALL_DIR/Attify.Badge.Tool-0.0.1-x86_64.AppImage $APM_PKG_BIN_DIR/attify-badge-tool
 }
 
 uninstall() {
   rm $APM_PKG_INSTALL_DIR/Attify.Badge.Tool-0.0.1-x86_64.AppImage
-  rm $APM_PKG_BIN_DIR/attifyos-package-manager
+  rm $APM_PKG_BIN_DIR/attify-badge-tool
 }
 
 run() {
