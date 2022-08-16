@@ -1,2 +1,3 @@
 # attify-badge-tool
-Attify badge tool packaged for AttifyOS
+
+Hardware Security Research and Serial Communication tool (to be used with Attify Badge)

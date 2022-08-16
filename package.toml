@@ -1,0 +1,8 @@
+[package_detail]
+name = "attify-badge-tool"
+description = "Hardware Security Research and Serial Communication tool (to be used with Attify Badge)"
+version = "0.0.1"
+source_url = "https://github.com/attify/attify-badge-tool"
+license = "MIT"
+install_script = "setup.sh"
+install_script_type = "shell"
